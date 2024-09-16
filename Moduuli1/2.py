@@ -12,9 +12,6 @@ grammat_leiviskät = leiviskät * LEIVISKA_GR
 grammat_naulat = naulat * NAULAT_GR
 grammat_luodit = luodit * LUOTI_GR
 
-kaikkigarmmat = int(kaikkigrammat % 1000)
+kaikkigarmmat = int(kaikki_grammat % 1000)
 kaikkikilot = int(kaikkikilot // 1000)
 print(f"{kilot} kilogrammaa ja {grammmat:.2f} grammaa")
-
-
-
